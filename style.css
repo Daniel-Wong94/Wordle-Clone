@@ -10,7 +10,7 @@ body {
 }
 
 svg {
-  color: #878a8c;
+  color: #d3d6da;
 }
 
 .game-container {
@@ -37,6 +37,10 @@ svg {
 
 .navbar__item {
   padding: 0 4px;
+}
+
+.navbar__item a {
+  color: #d3d6da;
 }
 
 .game-title {
@@ -107,7 +111,7 @@ svg {
   border: 0;
   border-radius: 6px;
   height: 58px;
-  width: 100%;
+  width: 40px;
   background-color: #d3d6da;
   color: #1a1a1b;
   text-transform: uppercase;
@@ -116,6 +120,14 @@ svg {
   align-items: center;
   cursor: pointer;
   margin-right: 4px;
+}
+
+#one-and-a-half {
+  width: 60px;
+}
+
+.spacer-half {
+  width: 20px;
 }
 
 @media (max-width: 500px) {
