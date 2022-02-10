@@ -9,10 +9,6 @@ body {
   justify-content: center;
 }
 
-svg {
-  color: #d3d6da;
-}
-
 .game-container {
   /* border: 1px solid red; */
   height: 100vh;
@@ -41,6 +37,10 @@ svg {
 
 .navbar__item a {
   color: #d3d6da;
+}
+
+.navbar__item svg {
+  fill: #878a8c;
 }
 
 .game-title {
